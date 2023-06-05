@@ -1,4 +1,5 @@
 import { CustomTable } from "@/components/custom-table"
+import { CustomCard } from "@/components/custom-card"
 
 export default function IndexPage() {
   return (
@@ -6,6 +7,9 @@ export default function IndexPage() {
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h2>Custom Table</h2>
         <CustomTable />
+
+        <h2>Custom Card</h2>
+        <CustomCard />
       </div>
     </section>
   )
