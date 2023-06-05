@@ -1,5 +1,6 @@
 import { CustomTable } from "@/components/custom-table"
 import { CustomCard } from "@/components/custom-card"
+import { CardWithForm } from "@/components/custom-card2"
 
 export default function IndexPage() {
   return (
@@ -10,6 +11,9 @@ export default function IndexPage() {
 
         <h2>Custom Card</h2>
         <CustomCard />
+    
+        <h2>Custom Card with form</h2>
+        <CardWithForm />
       </div>
     </section>
   )
