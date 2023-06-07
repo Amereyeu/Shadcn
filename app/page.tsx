@@ -2,6 +2,7 @@ import { CustomTable } from "@/components/custom-table"
 import { CustomCard } from "@/components/custom-card"
 import { CardWithForm } from "@/components/custom-card2"
 import { CustomAlert } from "@/components/custom-alert"
+import { BadgeDestructive, BadgeOutline, BadgePrimary, BadgeSecondary } from "@/components/custom-badge"
 
 export default function IndexPage() {
   return (
@@ -18,6 +19,12 @@ export default function IndexPage() {
 
         <h2>Custom Alert</h2>
         <CustomAlert />
+
+        <h2>Custom Badge</h2>
+        <BadgePrimary />
+        <BadgeSecondary />
+        <BadgeDestructive />
+        <BadgeOutline />
       </div>
     </section>
   )
