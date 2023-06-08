@@ -20,7 +20,7 @@ export default function IndexPage() {
         <h2>Custom Alert</h2>
         <CustomAlert />
 
-        <h2>Custom Badge</h2>
+        <h2>Custom Badges</h2>
         <BadgePrimary />
         <BadgeSecondary />
         <BadgeDestructive />
