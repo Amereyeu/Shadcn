@@ -1,8 +1,15 @@
-import { CustomTable } from "@/components/custom-table"
+import { Toaster } from "@/components/ui/toaster"
+import { CustomAlert } from "@/components/custom-alert"
+import {
+  BadgeDestructive,
+  BadgeOutline,
+  BadgePrimary,
+  BadgeSecondary,
+} from "@/components/custom-badge"
 import { CustomCard } from "@/components/custom-card"
 import { CardWithForm } from "@/components/custom-card2"
-import { CustomAlert } from "@/components/custom-alert"
-import { BadgeDestructive, BadgeOutline, BadgePrimary, BadgeSecondary } from "@/components/custom-badge"
+import { CustomTable } from "@/components/custom-table"
+import { ToastWithTitle } from "@/components/custom-toast"
 
 export default function IndexPage() {
   return (
@@ -13,7 +20,7 @@ export default function IndexPage() {
 
         <h2>Custom Card</h2>
         <CustomCard />
-    
+
         <h2>Custom Card with form</h2>
         <CardWithForm />
 
@@ -25,7 +32,11 @@ export default function IndexPage() {
         <BadgeSecondary />
         <BadgeDestructive />
         <BadgeOutline />
+
+        <h2>Custom Toast</h2>
+        <ToastWithTitle />
       </div>
+      <Toaster />
     </section>
   )
 }
