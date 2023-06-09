@@ -35,7 +35,7 @@ export function CustomCard({ className, ...props }: CardProps) {
     <Card className={cn("w-[380px]", className)} {...props}>
       <CardHeader>
         <CardTitle>Notifications</CardTitle>
-        <CardDescription>You have 4 unread messages.</CardDescription>
+        <CardDescription>You have 3 unread messages.</CardDescription>
       </CardHeader>
       <CardContent className="grid gap-4">
         <div className=" flex items-center space-x-4 rounded-md border p-4">
