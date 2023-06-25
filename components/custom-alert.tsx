@@ -6,7 +6,7 @@ export function CustomAlert() {
   return (
     <Alert>
       <Terminal className="h-4 w-4" />
-      <AlertTitle>Watch out!</AlertTitle>
+      <AlertTitle>Alert!</AlertTitle>
       <AlertDescription>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
         assumenda libero, nostrum eligendi tenetur voluptatum harum nulla sunt
